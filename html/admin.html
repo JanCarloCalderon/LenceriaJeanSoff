@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Panel Admin</title>
+  <base href="/LenceriaJeanSoff/">
+  <link rel="stylesheet" href="../css/style.css">
+  <script type="module" src="../js/admin.js"></script>
+</head>
+<body>
+  <h1>Administrar Productos</h1>
+  <button onclick="logout()">Cerrar sesión</button>
+  <div>
+    <input type="text" id="nombre" placeholder="Nombre del producto">
+    <input type="text" id="imagen" placeholder="URL de imagen">
+    <button onclick="agregarProducto()">Agregar</button>
+  </div>
+  <div id="lista-productos"></div>
+</body>
+</html>
